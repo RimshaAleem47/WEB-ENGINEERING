@@ -1,3 +1,8 @@
+img{
+    width: 7rem;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
 body{
     background: url(./bg1.png);
     background-size: cover;
@@ -10,7 +15,7 @@ body{
     flex-direction: column;
     width:18rem;
     position: absolute;
-    top: 11rem;
+    top: 7rem;
     left: 38%;
 }
 

@@ -5,14 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="loginlogo.css">
+    <link rel="stylesheet" href="nav.css">
+    
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-    
-    <form action="./landing.html">
-        <div class="log">IT BOOKS</div>
-
+    <nav>
+        <a href="./landing.html" class="home">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./contact.html">Contact Us</a>
+        <a href="./images.html">Images</a>
+    </nav>
+    <div  >
+        <img src="./book.png" alt="">
+                
+    </div>
+    <form action="./images.html">
         <div class="container">
             <div class="label">Enter Your First Name:</div>
             <input type="text" required placeholder="First Name" class="fname">
@@ -20,13 +28,9 @@
             <input type="text" required placeholder="Last Name">
             <div class="label">Enter Your Email:</div>
             <input type="email" required placeholder="Enter Email">
-            <div class="label">Enter Your Password:</div>
-            <input type="password" required placeholder="Enter Password">
-            <button type="submit" class="btn">Register</button>
-        </div> 
-        <div class="image-conta" >
-            <img src="./book.png" alt="">
-            </div>   
+            <textarea cols="30" rows="5" placeholder="Message" class="message"></textarea>
+            <button type="submit" class="btn">Submit</button>
+        </div>    
     </form>
 </body>
 </html>
